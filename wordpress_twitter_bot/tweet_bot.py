@@ -30,7 +30,6 @@ access_token_secret = t_ATokenS)
 def randomwait():
     logger.info('RANDOM WAIT : START PROCCESS.')
     st = random.randrange(3600)
-    st = 5 #TEST
     logger.info('RANDOM WAIT : START STANDBY {0} sec.'.format(st))
     time.sleep(st)
     logger.info('RANDOM WAIT : END STANDBY.')
