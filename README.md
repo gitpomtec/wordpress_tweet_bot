@@ -3,10 +3,11 @@
 Script to post to Twitter based on the sitemap (POSTTYPE) output by WordPress.
 ## SYSTEM REQUIREMENTS
 Python 3.10.5
-  beautifulsoup4==4.11.1
-  lxml==4.9.0
-  requests==2.28.0
-  tweepy==4.10.0
+- python module
+  - beautifulsoup4==4.11.1
+  - lxml==4.9.0
+  - requests==2.28.0
+  - tweepy==4.10.0
 ## TREATMENT
 1. Place the wordpress_tweet_bot folder in any folder on the computer where you want to run it.
 2. Create an app on the twitter developer platform(https://developer.twitter.com/en).
