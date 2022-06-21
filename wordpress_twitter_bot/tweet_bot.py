@@ -53,7 +53,7 @@ def getsitemap(tgturl):
     logger.info('GET SITEMAP : END GET SITEMAP DATA.HTTP STATUS CODE IS {0}.'.format(res.status_code))
     if res.status_code == 200:
         logger.info('GET SITEMAP : START OUT SITEMAP CSV.')
-        soup = BeautifulSoup(res.content, 'xml')
+        soup = BeautifulSoup(res.content, 'html.parser')
         tmpUrls = soup.select('loc')
         tmpPrs = soup.select('priority')
         for val in tmpUrls:
